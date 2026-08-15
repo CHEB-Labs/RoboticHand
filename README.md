@@ -1,4 +1,4 @@
-# Robotic Hands
+# Robotic Hand
 
 ---
 
@@ -43,7 +43,7 @@ The project can be divided into three main layers:
          ▼
 ┌─────────────────┐
 │     Arduino     │
-│  C++ Processing  │
+│  C++ Processing │
 └────────┬────────┘
          │
          ▼
