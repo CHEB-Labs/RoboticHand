@@ -164,7 +164,7 @@ The development process involved conceptual design, dimensional adjustments, 3D 
 Before manufacturing the components, the mechanical structure was planned to define dimensions, mounting points and the positioning of the different parts.
 
 <p align="center">
-  <img src="design/images/hand_full/Diagram.jpeg" width="700">
+  <img src="docs/design/mechanical-design.jpeg" width="700">
 </p>
 
 The design includes the main base, secondary base and top support, which were developed to accommodate the mechanical and electronic components of the project.
