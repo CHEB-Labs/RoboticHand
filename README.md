@@ -98,7 +98,10 @@ The system can be divided into three main layers:
 
 The general architecture of the project is represented below:
 
-```text
+
+<div align="center">
+
+<pre>
                     ┌──────────────┐
                     │   BUTTONS    │
                     │  User Input  │
@@ -122,7 +125,9 @@ The general architecture of the project is represented below:
                     ┌──────────────┐
                     │ ROBOTIC HAND │
                     └──────────────┘
-```
+</pre>
+
+</div>
 
 The final architecture may be updated as the electronic assembly and control system are completed.
 
