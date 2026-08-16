@@ -100,33 +100,31 @@ The general architecture of the project is represented below:
 
 
 <div align="center">
-
 <pre>
-                    ┌──────────────┐
-                    │   BUTTONS    │
-                    │  User Input  │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │   ARDUINO    │
-                    │     C++      │
-                    └──────┬───────┘
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-              ▼            ▼            ▼
-          ┌───────┐    ┌───────┐    ┌───────┐
-          │Servo 1│    │Servo 2│    │Servo 3│
-          └───┬───┘    └───┬───┘    └───┬───┘
-              │            │            │
-              └────────────┼────────────┘
-                           ▼
-                    ┌──────────────┐
-                    │ ROBOTIC HAND │
-                    └──────────────┘
+┌──────────────┐
+│   BUTTONS    │
+│  User Input  │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│   ARDUINO    │
+│     C++      │
+└──────┬───────┘
+       │
+  ┌────┼────┐
+  │    │    │
+  ▼    ▼    ▼
+┌────┐ ┌────┐ ┌────┐
+│ S1 │ │ S2 │ │ S3 │
+└─┬──┘ └─┬──┘ └─┬──┘
+  │      │      │
+  └──────┼──────┘
+         ▼
+┌──────────────┐
+│ ROBOTIC HAND │
+└──────────────┘
 </pre>
-
 </div>
 
 The final architecture may be updated as the electronic assembly and control system are completed.
