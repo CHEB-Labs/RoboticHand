@@ -416,7 +416,7 @@ Project collaboratively developed by the members of **CHEB-Labs**, a group of st
 | Member               | GitHub                                         | Contribution                |
 | -------------------- | ---------------------------------------------- | --------------------------- |
 | **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) | assembly and documentation                       |
-| **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         | TBD                         |
+| **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         | Project idealization and Eletronic assembly                         |
 | **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | Project Idealization, 3D Modelling, Arduino Coding, Mechanical Desing and Financing of electronic components.                 |
 | **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         | 3D Manufacturing            |
 
