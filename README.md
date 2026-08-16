@@ -1,4 +1,4 @@
-# Robotic Hand
+<h1 align="center">Robotic Hand</h1>
 
 <p align="center">
   <img src="docs/design/3d-model.jpeg" width="650">
