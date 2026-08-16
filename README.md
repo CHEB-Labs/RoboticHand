@@ -1,7 +1,7 @@
 # Robotic Hand
 
 <p align="center">
-  <img src="design/images/hand_full/FullHandModel.jpeg" width="650">
+  <img src="docs/design/3d-model.jpeg" width="650">
 </p>
 
 <p align="center">
