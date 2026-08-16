@@ -174,7 +174,7 @@ The design includes the main base, secondary base and top support, which were de
 The components were modeled in 3D before manufacturing, allowing the team to evaluate dimensions, positioning and assembly.
 
 <p align="center">
-  <img src="" width="700">
+  <img src="docs/design/Modeling.jpeg" width="700">
 </p>
 
 The model was progressively developed to integrate the robotic hand, support structure and controller into a single assembly.
