@@ -1,4 +1,4 @@
-<h1 align="center">Robotic Hand</h1>
+<img width="1585" height="517" alt="image" src="https://github.com/user-attachments/assets/4af0164e-8131-4157-9fdc-823de2ca87e7" /><h1 align="center">Robotic Hand</h1>
 
 <p align="center">
   <img src="docs/design/3d-model.jpeg" width="650">
@@ -417,7 +417,7 @@ Project collaboratively developed by the members of **CHEB-Labs**, a group of st
 | -------------------- | ---------------------------------------------- | --------------------------- |
 | **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) | assembly and documentation                       |
 | **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         | TBD                         |
-| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | TBD                 |
+| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | Project Idealization, 3D Modelling, Arduino Coding, Mechanical Desing and Financing of electronic components.                 |
 | **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         | 3D Manufacturing            |
 
 The contributions listed above may be updated as the project progresses.
