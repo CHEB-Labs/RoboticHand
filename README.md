@@ -174,7 +174,7 @@ The design includes the main base, secondary base and top support, which were de
 The components were modeled in 3D before manufacturing, allowing the team to evaluate dimensions, positioning and assembly.
 
 <p align="center">
-  <img src="design/images/hand_full/MechanicalDesign.jpeg" width="700">
+  <img src="" width="700">
 </p>
 
 The model was progressively developed to integrate the robotic hand, support structure and controller into a single assembly.
@@ -184,7 +184,7 @@ The model was progressively developed to integrate the robotic hand, support str
 The virtual assembly was used to verify the positioning and interaction between the mechanical components before physical assembly.
 
 <p align="center">
-  <img src="design/images/hand_full/Gif Blender.gif" width="700">
+  <img src="docs/design/3d-assemblyGif.gif" width="700">
 </p>
 
 ### 3D Printing
