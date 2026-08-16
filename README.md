@@ -63,7 +63,9 @@ The Arduino processes these inputs using a program developed in C++ and controls
 
 The system can be divided into three main layers:
 
-```text
+<div align="center">
+
+<pre>
 ┌─────────────────┐
 │     Buttons     │
 │    User Input   │
@@ -86,7 +88,9 @@ The system can be divided into three main layers:
 │  Robotic Hand   │
 │    Movement     │
 └─────────────────┘
-```
+</pre>
+
+</div>
 
 ---
 
