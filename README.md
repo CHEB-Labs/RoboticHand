@@ -1,4 +1,4 @@
-<img width="1585" height="517" alt="image" src="https://github.com/user-attachments/assets/4af0164e-8131-4157-9fdc-823de2ca87e7" /><h1 align="center">Robotic Hand</h1>
+<h1 align="center">Robotic Hand</h1>
 
 <p align="center">
   <img src="docs/design/3d-model.jpeg" width="650">
