@@ -413,12 +413,12 @@ The project aims not only to produce a functional robotic hand, but also to demo
 
 Project collaboratively developed by the members of **CHEB-Labs**, a group of students from **ETEC da Zona Leste (ETEC ZL)**.
 
-| Member               | GitHub                                         | Contribution                |
-| -------------------- | ---------------------------------------------- | --------------------------- |
-| **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) | Eletronic assembly and documentation                       |
-| **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         | Project idealization and Eletronic assembly                         |
-| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | Project Idealization, 3D Modelling, Arduino Coding, Mechanical Desing and Financing of electronic components.                 |
-| **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         | 3D Manufacturing            |
+| Member               | GitHub                                         |
+| -------------------- | ---------------------------------------------- |
+| **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) |
+| **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         |
+| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       |
+| **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         |
 
 The contributions listed above may be updated as the project progresses.
 
