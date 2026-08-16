@@ -417,7 +417,7 @@ Project collaboratively developed by the members of **CHEB-Labs**, a group of st
 | -------------------- | ---------------------------------------------- | --------------------------- |
 | **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) | TBD                         |
 | **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         | TBD                         |
-| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | 3D Modeling                 |
+| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       | TBD                 |
 | **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         | 3D Manufacturing            |
 
 The contributions listed above may be updated as the project progresses.
