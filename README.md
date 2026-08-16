@@ -285,11 +285,28 @@ During development, the team may encounter challenges involving **mechanical des
 
 These challenges and their solutions will be documented throughout the project.
 
-| Challenge | Solution |
-| --------- | -------- |
-| TBD       | TBD      |
-| TBD       | TBD      |
-| TBD       | TBD      |
+<div align="center">
+
+<table>
+  <tr>
+    <th>Challenge</th>
+    <th>Solution</th>
+  </tr>
+  <tr>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+</table>
+
+</div>
 
 This section will be updated as problems are identified and solved during development.
 
