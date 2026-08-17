@@ -44,7 +44,7 @@ The project is being developed progressively, from the mechanical design and 3D 
 
 * [x] Project planning
 * [x] 3D modeling
-* [x] 3D printing
+* [ ] 3D printing (In conclusion)
 * [ ] Mechanical assembly
 * [ ] Electronic assembly
 * [ ] Arduino programming
