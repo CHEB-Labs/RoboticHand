@@ -210,7 +210,9 @@ The printable files are organized in the `3d-models/` directory.
 | Palm      | PLA      | TBD          | TBD    |
 | Forearm   | PLA      | TBD          | TBD    |
 | Fingers   | PLA      | TBD          | TBD    |
-| Base      | PLA      | TBD          | TBD    |
+| Main Base      | PLA      | TBD          | TBD    |
+| Secondary Base      | PLA      | TBD          | TBD    |
+| Top Base      | PLA      | TBD          | TBD    |
 
 The manufacturing parameters will be updated as the printing process is finalized.
 
