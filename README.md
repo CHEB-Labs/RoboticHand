@@ -47,7 +47,7 @@ The project is being developed progressively, from the mechanical design and 3D 
 * [ ] 3D printing (In conclusion)
 * [ ] Mechanical assembly
 * [ ] Electronic assembly
-* [ ] Arduino programming
+* [x] Arduino programming
 * [ ] Movement testing
 * [ ] Final adjustments
 * [ ] Final documentation
