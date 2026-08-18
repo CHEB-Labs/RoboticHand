@@ -105,8 +105,8 @@ The general architecture of the project is represented below:
 │   BUTTONS    │
 │  User Input  │
 └──────┬───────┘
-       │
-       ▼
+      │
+     ▼
 ┌──────────────┐
 │   ARDUINO    │
 │     C++      │
