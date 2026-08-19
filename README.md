@@ -206,7 +206,7 @@ After the modeling and validation stages, the components were manufactured using
 The printable files are organized in the `3d-models/` directory.
 
 | Component | Material | X | Y | Z |
-| --------- | -------- | -   -   - |
+| --------- | -------- | -------- | --------- | --------- |
 | Hand      | PLA      | 320.243mm | 133.549mm | 119.163mm |
 | Main Base | PLA      | 231.2mm       | 195.8    | 80mm   |
 | Secondary Base       | PLA       | 231.2mm    | 195.8mm    | 61mm  |
