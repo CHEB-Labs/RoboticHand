@@ -205,14 +205,12 @@ After the modeling and validation stages, the components were manufactured using
 
 The printable files are organized in the `3d-models/` directory.
 
-| Component | Material | Layer Height | Infill |
-| --------- | -------- | ------------ | ------ |
-| Palm      | PLA      | TBD          | TBD    |
-| Forearm   | PLA      | TBD          | TBD    |
-| Fingers   | PLA      | TBD          | TBD    |
-| Main Base      | PLA      | TBD          | TBD    |
-| Secondary Base      | PLA      | TBD          | TBD    |
-| Top Base      | PLA      | TBD          | TBD    |
+| Component | Material | X | Y | Z |
+| --------- | -------- | -   -   - |
+| Hand      | PLA      | 320.243mm | 133.549mm | 119.163mm |
+| Main Base | PLA      | 231.2mm       | 195.8    | 80mm   |
+| Secondary Base       | PLA       | 231.2mm    | 195.8mm    | 61mm  |
+| Top Base  | PLA      | 105.7mm       | 187.852mm    | 46.8092mm  |
 
 The manufacturing parameters will be updated as the printing process is finalized.
 
