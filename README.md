@@ -429,4 +429,4 @@ The contributions listed above may be updated as the project progresses.
 
 This project was developed for educational purposes.
 
-The licensing information will be defined by the team.
+Free to test
