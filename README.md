@@ -207,10 +207,10 @@ The printable files are organized in the `3d-models/` directory.
 
 | Component | Material | X | Y | Z |
 | --------- | -------- | -------- | --------- | --------- |
-| Hand      | PLA      | 320.243mm | 133.549mm | 119.163mm |
+| Hand      | PLA      | 320.2mm | 133.5mm | 119.1mm |
 | Main Base | PLA      | 231.2mm       | 195.8mm    | 80mm   |
 | Secondary Base       | PLA       | 231.2mm    | 195.8mm    | 61mm  |
-| Top Base  | PLA      | 105.7mm       | 187.852mm    | 46.8092mm  |
+| Top Base  | PLA      | 105.7mm       | 187.8mm    | 46.8mm  |
 
 The manufacturing parameters will be updated as the printing process is finalized.
 
