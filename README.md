@@ -279,39 +279,6 @@ The demonstration will show the hand responding to user input and performing its
 
 ---
 
-## Challenges & Solutions
-
-During development, the team may encounter challenges involving **mechanical design, 3D printing, electronics, programming and assembly**.
-
-These challenges and their solutions will be documented throughout the project.
-
-<div align="center">
-
-<table>
-  <tr>
-    <th>Challenge</th>
-    <th>Solution</th>
-  </tr>
-  <tr>
-    <td>TBD</td>
-    <td>TBD</td>
-  </tr>
-  <tr>
-    <td>TBD</td>
-    <td>TBD</td>
-  </tr>
-  <tr>
-    <td>TBD</td>
-    <td>TBD</td>
-  </tr>
-</table>
-
-</div>
-
-This section will be updated as problems are identified and solved during development.
-
----
-
 ## Documentation
 
 The complete technical documentation of the project will cover:
