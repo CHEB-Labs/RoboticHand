@@ -362,6 +362,7 @@ Robotic-Hand/
 │       └── robotic_hand.ino
 │
 ├── 3d-models/
+|   ├── assembly/
 │   ├── palm/
 │   ├── fingers/
 │   ├── forearm/
