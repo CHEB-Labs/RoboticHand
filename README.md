@@ -196,9 +196,8 @@ The virtual assembly was used to verify the positioning and interaction between 
 
 ### 3D Printing
 
-<p align="center">
-  <img src="docs/images/final/Printing.gif" width="700">
-</p>
+https://github.com/user-attachments/assets/caff3585-fea6-4f36-9b6d-5c4ffe990481
+
 
 After the modeling and validation stages, the components were manufactured using **FDM 3D printing**.
 
