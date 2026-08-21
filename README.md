@@ -196,12 +196,11 @@ The virtual assembly was used to verify the positioning and interaction between 
 
 ### 3D Printing
 
-After the modeling and validation stages, the components were manufactured using **FDM 3D printing**.
-
 <p align="center">
-  <img src="docs/images/printing/print-01.jpg" width="300">
-  <img src="docs/images/printing/print-02.jpg" width="300">
+  <img src="docs/printing/Video Printing.gif" width="700">
 </p>
+
+After the modeling and validation stages, the components were manufactured using **FDM 3D printing**.
 
 The printable files are organized in the `3d-models/` directory.
 
