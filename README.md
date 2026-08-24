@@ -229,6 +229,25 @@ After the 3D-printed components were manufactured, the next stage is the mechani
 
 Additional photos will be added as the physical assembly progresses.
 
+<table>
+  <tr>
+    <td width="60%">
+
+### Demonstração
+
+Nesta etapa, a mão robótica foi montada e testada para verificar o funcionamento dos mecanismos e movimentos controlados pelo Arduino.
+
+O vídeo ao lado mostra uma demonstração do protótipo em funcionamento.
+
+    </td>
+    <td width="40%" align="center">
+
+<img src="" width="250" alt="Demonstração da mão robótica">
+
+    </td>
+  </tr>
+</table>
+
 ### Electronic Assembly
 
 The electronic components will be connected to the Arduino and integrated with the mechanical structure.
