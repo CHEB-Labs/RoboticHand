@@ -45,7 +45,7 @@ The project is being developed progressively, from the mechanical design and 3D 
 * [x] Project planning
 * [x] 3D modeling
 * [ ] 3D printing (In conclusion)
-* [ ] Mechanical assembly
+* [x] Mechanical assembly
 * [ ] Electronic assembly
 * [x] Arduino programming
 * [ ] Movement testing
@@ -224,7 +224,7 @@ The project is being developed through several stages, allowing the team to docu
 After the 3D-printed components were manufactured, the next stage is the mechanical assembly of the robotic hand and its support structure.
 
 <p align="center">
-  <img src="docs/images/assembly/assembly-01.jpg" width="300">
+  <img src="docs/images/assembly/ArduinoHandTest.gif" width="300">
   <img src="docs/images/assembly/assembly-02.jpg" width="300">
 </p>
 
