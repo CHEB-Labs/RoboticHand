@@ -242,7 +242,7 @@ O vídeo ao lado mostra uma demonstração do protótipo em funcionamento.
     </td>
     <td width="40%" align="center">
 
-<img src="" width="250" alt="Demonstração da mão robótica">
+<img src="docs/assembly/HandTestNylon.gif" width="250" alt="Demonstração da mão robótica">
 
     </td>
   </tr>
