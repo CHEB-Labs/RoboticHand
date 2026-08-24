@@ -224,8 +224,7 @@ The project is being developed through several stages, allowing the team to docu
 After the 3D-printed components were manufactured, the next stage is the mechanical assembly of the robotic hand and its support structure.
 
 <p align="center">
-  <img src="docs/assembly/ArduinoHandTest.gif" width="300">
-  <img src="docs/images/assembly/assembly-02.jpg" width="300">
+  <img src="docs/assembly/ArduinoHandTest.gif" width="700">
 </p>
 
 Additional photos will be added as the physical assembly progresses.
