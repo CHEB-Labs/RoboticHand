@@ -234,7 +234,7 @@ Additional photos will be added as the physical assembly progresses.
 The electronic components will be connected to the Arduino and integrated with the mechanical structure.
 
 <p align="center">
-  <img src="docs/assembly/ElectronicAssembly.jpeg" width="600">
+  <img src="docs/assembly/ElectronicAssembly.jpeg" width="700">
 </p>
 
 The circuit diagram and wiring details will be documented in the `docs/schematics/` directory.
