@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Robotic hand developed as a school project using Arduino, C++, servo motors and 3D-printed components.
+  Robotic hand developed as a school project using ESP32, C++, servo motors and 3D-printed components.
 </p>
 
 ---
@@ -14,7 +14,7 @@
 
 This is a **school project** developed for the **Embedded Systems** subject at **ETEC da Zona Leste (ETEC ZL)**.
 
-The project consists of developing a functional **robotic hand** controlled by an Arduino and physical buttons. The hand combines **embedded programming, electronics, mechanical design, 3D printing and assembly** into a single practical project.
+The project consists of developing a functional **robotic hand** controlled by an ESP32 and physical buttons. The hand combines **embedded programming, electronics, mechanical design, 3D printing and assembly** into a single practical project.
 
 The project was collaboratively developed by the members of **CHEB-Labs**, a group of students from ETEC ZL, as an opportunity to apply concepts learned throughout the technical course in **Systems Development**.
 
@@ -24,7 +24,7 @@ The project was collaboratively developed by the members of **CHEB-Labs**, a gro
 
 The main objectives of the project are:
 
-* Develop a functional robotic hand using Arduino.
+* Develop a functional robotic hand using ESP32.
 * Control the hand's movements through physical buttons.
 * Apply C++ programming to an embedded system.
 * Integrate electronic and mechanical components.
@@ -47,8 +47,8 @@ The project is being developed progressively, from the mechanical design and 3D 
 * [ ] 3D printing (In conclusion)
 * [x] Mechanical assembly
 * [ ] Electronic assembly
-* [x] Arduino programming
-* [ ] Movement testing
+* [x] ESP32 programming
+* [x] Movement testing
 * [ ] Final adjustments
 * [ ] Final documentation
 * [ ] Final demonstration
@@ -57,7 +57,7 @@ The project is being developed progressively, from the mechanical design and 3D 
 
 ## How It Works
 
-The robotic hand receives commands through **physical buttons** connected to the Arduino.
+The robotic hand receives commands through **physical buttons** connected to the ESP32.
 
 The Arduino processes these inputs using a program developed in C++ and controls the servo motors responsible for the hand's movements.
 
@@ -73,7 +73,7 @@ The system can be divided into three main layers:
          │
          ▼
 ┌─────────────────┐
-│     Arduino     │
+│      ESP32      │
 │  C++ Processing │
 └────────┬────────┘
          │
@@ -108,7 +108,7 @@ The general architecture of the project is represented below:
       │
      ▼
 ┌──────────────┐
-│   ARDUINO    │
+│    ESP32     │
 │     C++      │
 └──────┬───────┘
        │
@@ -135,7 +135,7 @@ The final architecture may be updated as the electronic assembly and control sys
 
 | Technology          | Purpose                                          |
 | ------------------- | ------------------------------------------------ |
-| **Arduino**         | Microcontroller platform and hardware control    |
+| **ESP32**           | Microcontroller platform and hardware control    |
 | **C++**             | Embedded programming and movement logic          |
 | **Arduino IDE**     | Development and programming environment          |
 | **CAD Software**    | 3D modeling and mechanical design                |
@@ -148,7 +148,7 @@ The final architecture may be updated as the electronic assembly and control sys
 
 The project uses a combination of electronic and mechanical components, including:
 
-* Arduino board
+* ESP32 board
 * Servo motors
 * Push buttons
 * Connecting wires
