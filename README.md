@@ -381,7 +381,7 @@ Project collaboratively developed by the members of **CHEB-Labs**, a group of st
 
 ## Contributors
 
-![](./CONTRIBUTOR_MURAL.svg)
+![https://github.com/CHEB-Labs/RoboticHand/graphs/contributors?from=20%2F06%2F2026](./CONTRIBUTOR_MURAL.svg)
 
 The contributions listed above may be updated as the project progresses.
 
