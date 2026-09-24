@@ -1,0 +1,17 @@
+style: grid
+
+contributors:
+  max: 100
+  group: Contributors
+
+grid:
+  columns: 6
+  avatar_size: 72
+  shape: circle
+  margin: 12
+  show_names: true
+  truncate: 20
+
+theme:
+  preset: github
+  mode: auto
