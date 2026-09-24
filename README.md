@@ -379,12 +379,11 @@ The project aims not only to produce a functional robotic hand, but also to demo
 
 Project collaboratively developed by the members of **CHEB-Labs**, a group of students from **ETEC da Zona Leste (ETEC ZL)**.
 
-| Member               | GitHub                                         |
-| -------------------- | ---------------------------------------------- |
-| **Bryan Fernandes**  | [@bryanfs-dev](https://github.com/bryanfs-dev) |
-| **Heitor De Abreu**  | [@PHei-09](https://github.com/PHei-09)         |
-| **Claudio Henrique** | [@rhee-c31](https://github.com/rhee-c31)       |
-| **Eduardo Gomes**    | [@Edukaxs](https://github.com/Edukaxs)         |
+## Contributors
+
+<a href="https://github.com/CHEB-Labs/RoboticHand/graphs/contributors">
+  <img src="./CONTRIBUTORS.svg" alt="Contributors" width="1000" />
+</a>
 
 The contributions listed above may be updated as the project progresses.
 
