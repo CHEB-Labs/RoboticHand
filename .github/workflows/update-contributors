@@ -1,0 +1,37 @@
+name: Update Contributors
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate contributors SVG
+        uses: tw93/contributors-list@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          svgPath: CONTRIBUTORS.svg
+          svgWidth: 1000
+          avatarSize: 72
+          avatarMargin: 45
+          userNameHeight: 20
+          noFetch: false
+          noCommit: true
+
+      - name: Commit Contributors
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "chore: update contributors"
+          file_pattern: CONTRIBUTORS.svg
