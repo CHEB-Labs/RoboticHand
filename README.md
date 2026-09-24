@@ -379,7 +379,7 @@ The project aims not only to produce a functional robotic hand, but also to demo
 
 Project collaboratively developed by the members of **CHEB-Labs**, a group of students from **ETEC da Zona Leste (ETEC ZL)**.
 
-## ![](./CONTRIBUTOR_MURAL.svg)
+![](./CONTRIBUTOR_MURAL.svg&https://github.com/CHEB-Labs/RoboticHand/graphs/contributors?from=20%2F06%2F2026)
 
 The contributions listed above may be updated as the project progresses.
 
