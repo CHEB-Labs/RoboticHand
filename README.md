@@ -381,7 +381,7 @@ Project collaboratively developed by the members of **CHEB-Labs**, a group of st
 
 ## Contributors
 
-![Contributors](./CONTRIBUTORS_MURAL.svg)
+![Contributors](./CONTRIBUTOR_MURAL.svg)
 
 The contributions listed above may be updated as the project progresses.
 
