@@ -44,9 +44,9 @@ The project is being developed progressively, from the mechanical design and 3D 
 
 * [x] Project planning
 * [x] 3D modeling
-* [ ] 3D printing (In conclusion)
+* [x] 3D printing
 * [x] Mechanical assembly
-* [ ] Electronic assembly
+* [x] Electronic assembly
 * [x] ESP32 programming
 * [x] Movement testing
 * [ ] Final adjustments
@@ -138,7 +138,7 @@ The final architecture may be updated as the electronic assembly and control sys
 | **ESP32**           | Microcontroller platform and hardware control    |
 | **C++**             | Embedded programming and movement logic          |
 | **Arduino IDE**     | Development and programming environment          |
-| **CAD Software**    | 3D modeling and mechanical design                |
+| **Blender Software**    | 3D modeling and mechanical design                |
 | **FDM 3D Printing** | Manufacturing of structural components           |
 | **Git & GitHub**    | Version control, collaboration and documentation |
 
