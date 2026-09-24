@@ -1,3 +1,4 @@
+```yaml
 name: Update Contributors
 
 on:
@@ -42,8 +43,8 @@ jobs:
                 <image
                   width="72"
                   height="72"
-                  xlink:href="https://github.com/{{ login }}.png?size=144"
-                  href="https://github.com/{{ login }}.png?size=144"
+                  xlink:href="{{{ avatar }}}"
+                  href="{{{ avatar }}}"
                   clip-path="url(#cp-{{ login }})"
                 />
 
@@ -64,3 +65,4 @@ jobs:
         with:
           commit_message: "chore: update contributors"
           file_pattern: CONTRIBUTORS.svg
+```
