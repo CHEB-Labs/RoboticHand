@@ -1,4 +1,4 @@
-<h1 align="center" style="font-family: Poppins">Robotic Hand</h1>
+<h1 align="center" style="font-family: Arial">Robotic Hand</h1>
 
 <p align="center">
   <img src="docs/design/RoboticHand.png" width="650">
