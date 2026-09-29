@@ -360,6 +360,9 @@ Robotic-Hand/
 │   │
 │   └── documentation.md
 │
+├── website/
+|   ├── index.html
+|
 └── LICENSE
 ```
 
