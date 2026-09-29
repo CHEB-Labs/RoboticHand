@@ -1,7 +1,7 @@
 <h1 align="center">Robotic Hand</h1>
 
 <p align="center">
-  <img src="docs/design/3d-model.jpeg" width="650">
+  <img src="docs/design/RoboticHand.png" width="650">
 </p>
 
 <p align="center">
