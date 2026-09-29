@@ -356,9 +356,7 @@ Robotic-Hand/
 │   │       └── demonstration.gif
 │   │
 │   ├── schematics/
-│   │   └── circuit.png
-│   │
-│   └── documentation.md
+│         └── circuit.png
 │
 ├── website/
 |   ├── index.html
