@@ -138,7 +138,7 @@ The final architecture may be updated as the electronic assembly and control sys
 | **ESP32**           | Microcontroller platform and hardware control    |
 | **C++**             | Embedded programming and movement logic          |
 | **Arduino IDE**     | Development and programming environment          |
-| **Blender Software**    | 3D modeling and mechanical design                |
+| **Blender Software**    | 3D modeling and mechanical design            |
 | **FDM 3D Printing** | Manufacturing of structural components           |
 | **Git & GitHub**    | Version control, collaboration and documentation |
 
@@ -204,12 +204,14 @@ After the modeling and validation stages, the components were manufactured using
 
 The printable files are organized in the `3d-models/` directory.
 
-| Component | Material | X | Y | Z |
-| --------- | -------- | -------- | --------- | --------- |
-| Hand      | PLA      | 320.2mm | 133.5mm | 119.1mm |
-| Main Base | PLA      | 231.2mm       | 195.8mm    | 80mm   |
-| Secondary Base       | PLA       | 231.2mm    | 195.8mm    | 61mm  |
-| Top Base  | PLA      | 105.7mm       | 187.8mm    | 46.8mm  |
+| Component | Material |     X     |     Y      |     Z     |
+| --------- | -------- | --------  | ---------  | --------- |
+| Hand      | PLA      | 320.2mm   | 133.5mm    | 119.1mm   |
+| Main Base | PLA      | 231.2mm   | 195.8mm    | 80mm      |
+| Secondary Base       | PLA       | 231.2mm    | 195.8mm   | 61mm  |
+| Top Base  | PLA      | 105.7mm   | 187.8mm    | 46.8mm    |
+| Cover     | PLA      | 88.3mm    | 112mm      | 9.91mm    |
+| Glauntlet | PLA      | 14.5mm    | 24.9mm     | 4.54mm    |
 
 The manufacturing parameters will be updated as the printing process is finalized.
 
@@ -249,6 +251,39 @@ The final result will be documented after the mechanical and electronic assembly
 
 ---
 
+## Mechanical Adjustments
+
+During the physical assembly and movement testing of the robotic hand, some mechanical issues were identified. To address these issues, two new 3D models were designed and printed, improving the stability and reliability of the mechanical structure.
+
+### Finger Return Stops
+
+During movement tests, the fingers could move too far backward when returning to their initial positions due to the elastic bands, causing them to hang backward.
+
+To solve this issue, **four small finger return stops** were designed and 3D-printed, with one component installed on each finger, excluding the thumb. These components act as mechanical stops, limiting the backward movement of the fingers and keeping them in their intended resting positions.
+
+The solution effectively prevented excessive backward movement and improved the consistency of the finger return mechanism.
+
+<p align="center">
+  <img src="3d-models/gauntlet/Gauntlet.jpeg" width="700">
+</p>
+
+### Top Base Stabilization Cover
+
+Another issue identified during assembly was the instability of the robotic hand when positioned on the top base of the case. The hand's support structure was slightly loose, resulting in unwanted movement.
+
+To address this issue, the available space beneath the top base was measured and used to design a custom 3D-printed cover. The new component fits into this space, helping secure the top base and reducing unwanted movement.
+
+This adjustment improved the stability of the assembly and provided a firmer fit between the components.
+
+<p align="center">
+  <img src="3d-models/cover/Cover.jpeg" width="700">
+</p>
+
+### Results
+
+Both adjustments were designed and manufactured based on issues identified during physical testing. The new components resolved the observed problems, improving finger positioning and the stability of the robotic hand's support structure.
+
+---
 ## Software
 
 The robotic hand is programmed in **C++ using the Arduino IDE**.
@@ -323,43 +358,38 @@ Robotic-Hand/
 ├── README.md
 │
 ├── src/
-│   └── robotic_hand/
-│       └── robotic_hand.ino
-│
+│   └── robotic_hand.ino
+|
+├── .github/
+|    ├── dcontributor-mural.yml
+|    └── workflows/
+|        └── update-contributors.yml 
+|
 ├── 3d-models/
 |   ├── assembly/
-│   ├── palm/
+│   ├── base/
+│   ├── cover/
 │   ├── fingers/
 │   ├── forearm/
-│   ├── controller/
-│   └── base/
+|   ├── gauntlet/
+│   └── palm/
 │
 ├── docs/
-│   ├── images/
-│   │   ├── design/
-│   │   │   ├── mechanical-design.png
-│   │   │   ├── 3d-model.png
-│   │   │   └── 3d-assembly.gif
-│   │   │
-│   │   ├── printing/
-│   │   │   ├── print-01.jpg
-│   │   │   └── print-02.jpg
-│   │   │
-│   │   ├── assembly/
-│   │   │   ├── assembly-01.jpg
-│   │   │   ├── assembly-02.jpg
-│   │   │   └── electronics.jpg
-│   │   │
-│   │   └── final/
-│   │       ├── robotic-hand-preview.jpg
-│   │       ├── robotic-hand.jpg
-│   │       └── demonstration.gif
-│   │
-│   ├── schematics/
+|   ├── assembly/
+|   ├── design/
+│   ├── final/
+|   └── printing/
+|
+├── schematics/
 │         └── circuit.png
 │
 ├── website/
 |   ├── index.html
+|
+|
+├── CONTRIBUTOR_MURAL.SVG
+|
+├── README.md
 |
 └── LICENSE
 ```
