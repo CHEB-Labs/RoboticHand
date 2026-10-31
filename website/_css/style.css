@@ -33,8 +33,8 @@ h1, h2, p {
     padding: 10%;
     border-radius: 12px;
     box-shadow:
-        inset 2px 2px 0 rgba(67, 67, 67, 0.75),  
-        inset -2px -2px 0 rgba(67, 67, 67, 0.2),
+        inset 1px 1px 0 rgba(67, 67, 67, 0.75),  
+        inset -1px -1px 0 rgba(67, 67, 67, 0.2),
         0px 13px 15px 0px rgba(0, 0, 0, 0.20);
 }
 
@@ -45,7 +45,7 @@ h1, h2, p {
     gap: 0px;
     height: 100vh;
     height: 100dvh;
-    padding: 0 38px 54px 38px;
+    padding: 0 38px 64px 38px;
 }
 
 .cont-principal > * {
@@ -62,7 +62,7 @@ h1, h2, p {
 
 .cont-header p {
     font-family: Inter;
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-weight: 250;
 }
 
@@ -132,12 +132,13 @@ h1, h2, p {
     flex-direction: column;
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .cont-central .texto h1 {
     font-family: Google Sans Flex;
     font-weight: 475;
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 .cont-central .texto h2 {
@@ -290,7 +291,7 @@ h1, h2, p {
 }
 
 .slider::-webkit-slider-runnable-track {
-    height: 12px;
+    height: 8px;
     border-radius: 10px;
     background: #0B0B0B;
     box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.5);
