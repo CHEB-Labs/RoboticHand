@@ -361,9 +361,10 @@ Robotic-Hand/
 │   └── robotic_hand.ino
 |
 ├── .github/
-|    ├── dcontributor-mural.yml
+|    ├── contributor-mural.yml
 |    └── workflows/
-|        └── update-contributors.yml 
+|        ├── update-contributors.yml
+|        └── deploy-pages.yml
 |
 ├── 3d-models/
 |   ├── assembly/
@@ -385,6 +386,9 @@ Robotic-Hand/
 │
 ├── website/
 |   ├── index.html
+|   ├── _css/
+|   ├── _img/
+|   └── _js/
 |
 |
 ├── CONTRIBUTOR_MURAL.SVG
