@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
     <title>Robotic Hand</title>
 </head>
+
 <body>
-    
+    <div class="cont-principal">
+        <div class="cont-header">
+            <p>Robotic Hand  |  ETEC da Zona Leste</p>
+        </div>
+
+        <div class="cont-esquerdo">
+            <div class="painel">
+                <div class="botoes">
+                    <button>
+                        <img src="_img/home.png" alt="">
+                        <p>Início</p>
+                    </button>
+
+                    <button>
+                        <img src="_img/palm-of-hand.png" alt="">
+                        <p>Personalizar</p>
+                    </button>
+
+                    <button>
+                        <img src="_img/check.png" alt="">
+                        <p>Predefinições</p>
+                    </button>
+
+                    <button>
+                        <img src="_img/settings.png" alt="">
+                        <p>Configurações</p>
+                    </button>
+
+                    <button>
+                        <img src="_img/user.png" alt="">
+                        <p>Sobre</p>
+                    </button>
+                </div>
+                <p class="rodape">By CHEB Labs <br> Educational purposes</p>
+            </div>
+        </div>
+
+        <div class="cont-central">
+            <div class="texto">
+                <h2>POSIÇÃO ATUAL</h2>
+                <h1>POSIÇÃO ATUAL</h1>
+            </div>
+
+            <div class="img">
+                <div class="medidor">
+                    <img src="_img/Elipse.png" alt="">
+                </div>
+                <div class="mao">
+                    <img src="_img/MaoAberta2.png" alt="">
+                </div>
+                <div class="porcentagem">
+                    <img src="_img/battery.png" alt="">
+                    <p>37%</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cont-botoes">
+            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+        </div>
+
+        <div class="cont-direito1">
+            <div class="painel">
+                <div class="range">
+                    <p>Thumb</p>
+                    <input type="range" name="" id="" class="slider">
+                </div>
+                <div class="range">
+                    <p>Index</p>
+                    <input type="range" name="" id="" class="slider">
+                </div>
+                <div class="range">
+                    <p>Middle</p>
+                    <input type="range" name="" id="" class="slider">
+                </div>
+                <div class="range">
+                    <p>Ring</p>
+                    <input type="range" name="" id="" class="slider">
+                </div>
+                <div class="range">
+                    <p>Pinky</p>
+                    <input type="range" name="" id="" class="slider">
+                </div>
+            </div>
+        </div>
+
+        <div class="cont-direito2">
+            <div class="painel">
+                <h1>ESP32</h1>
+                <p style="font-size: 0.6em; font-weight: 200; color: #b5b5b5;">Microcontroller Status</p>
+                <div class="info" style="margin-top: 16px;">
+                    <img src="_img/wifi.png" alt=""><p><strong>IP:</strong> 192.168.4.1</p>
+                </div>
+                <div class="info">
+                    <img src="_img/signal-status.png" alt=""><p><strong>Signal:</strong> -54 dBm</p>
+                </div>
+                <div class="info">
+                    <img src="_img/gears.png" alt=""><p><Strong>Servos</Strong> 5/5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
