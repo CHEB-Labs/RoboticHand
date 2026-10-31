@@ -1,0 +1,100 @@
+#include <WiFi.h>
+#include <WebServer.h>
+#include <ESP32Servo.h>
+#include <esp_wifi.h>
+
+const char* AP_SSID  = "RoboticHand";
+const char* AP_SENHA = "12345678";   // mínimo 8 caracteres
+
+WebServer server(80);
+Servo servos[5];
+
+int pinosServos[] = {14, 27, 26, 25, 33};
+int botoes[]      = {15, 5, 18, 19, 2};
+int num_servos = 5;
+
+// true = o site está controlando esse dedo; apertar o botão físico devolve o controle
+bool controleSite[5] = {false, false, false, false, false};
+int angulos[5] = {180, 180, 180, 180, 180};
+
+void liberarCORS() {
+  server.sendHeader("Access-Control-Allow-Origin", "*");
+}
+
+// Ex: http://192.168.4.1/servo?id=2&angulo=90
+void handleServo() {
+  liberarCORS();
+  if (!server.hasArg("id") || !server.hasArg("angulo")) {
+    server.send(400, "text/plain", "faltam parametros");
+    return;
+  }
+  int id = server.arg("id").toInt();
+  int angulo = constrain(server.arg("angulo").toInt(), 0, 180);
+
+  if (id < 0 || id >= num_servos) {
+    server.send(400, "text/plain", "id invalido");
+    return;
+  }
+  controleSite[id] = true;
+  angulos[id] = angulo;
+  servos[id].write(angulo);
+  server.send(200, "text/plain", "ok");
+}
+
+// Ex: http://192.168.4.1/status
+void handleStatus() {
+  liberarCORS();
+
+  int rssi = 0;
+  wifi_sta_list_t lista;
+  if (esp_wifi_ap_get_sta_list(&lista) == ESP_OK && lista.num > 0) {
+    rssi = lista.sta[0].rssi;
+  }
+
+  int ligados = 0;
+  String json = "{\"angulos\":[";
+  for (int i = 0; i < num_servos; i++) {
+    if (servos[i].attached()) ligados++;
+    json += String(angulos[i]);
+    if (i < num_servos - 1) json += ",";
+  }
+  json += "],\"servos\":" + String(ligados);
+  json += ",\"rssi\":" + String(rssi);
+  json += ",\"ip\":\"" + WiFi.softAPIP().toString() + "\"}";
+
+  server.send(200, "application/json", json);
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  for (int i = 0; i < num_servos; i++) {
+    servos[i].setPeriodHertz(50);
+    servos[i].attach(pinosServos[i], 500, 1500);
+    pinMode(botoes[i], INPUT_PULLUP);
+  }
+
+  WiFi.mode(WIFI_AP);
+  WiFi.softAP(AP_SSID, AP_SENHA);
+  Serial.print("Rede criada. IP: ");
+  Serial.println(WiFi.softAPIP());   // normalmente 192.168.4.1
+
+  server.on("/servo", handleServo);
+  server.on("/status", handleStatus);
+  server.begin();
+}
+
+void loop() {
+  server.handleClient();
+
+  for (int i = 0; i < num_servos; i++) {
+    if (digitalRead(botoes[i]) == LOW) {
+      controleSite[i] = false;       // botão físico retoma o controle
+      angulos[i] = 0;
+      servos[i].write(0);
+    } else if (!controleSite[i]) {
+      angulos[i] = 180;
+      servos[i].write(180);
+    }
+  }
+}
