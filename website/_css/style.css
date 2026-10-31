@@ -14,7 +14,7 @@ html, body {
 body {
     background-color: #0A0A0A;
     background-image:
-        radial-gradient(ellipse 60% 35% at 50% 95%, rgba(33, 33, 33, 0.9) 0%, transparent 80%);
+        radial-gradient(ellipse 60% 35% at 50% 95%, rgba(33, 33, 33, 1) 0%, transparent 80%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
@@ -26,7 +26,7 @@ h1, h2, p {
 
 .painel {
     background:
-        radial-gradient(ellipse 120% 70% at 100% 0%, rgba(33, 33, 33, 0.5) 0%, transparent 70%),
+        radial-gradient(ellipse 120% 120% at 100% 0%, rgba(33, 33, 33, 0.9) 0%, transparent 70%),
         #0A0A0A;
     height: 100%;
     width: 98.5%;
@@ -35,7 +35,7 @@ h1, h2, p {
     box-shadow:
         inset 1px 1px 0 rgba(67, 67, 67, 0.75),  
         inset -1px -1px 0 rgba(67, 67, 67, 0.2),
-        0px 13px 15px 0px rgba(0, 0, 0, 0.20);
+        0px 13px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .cont-principal {
@@ -221,7 +221,7 @@ h1, h2, p {
 
 .fnd-botao {
     background:
-        radial-gradient(ellipse 120% 70% at 50% 100%, rgba(33, 33, 33, 0.8) 0%, transparent 70%),
+        radial-gradient(ellipse 120% 70% at 50% 100%, rgba(33, 33, 33, 1) 0%, transparent 70%),
         #0F0F0F;
     height: 72px;
     width: 9%;
@@ -264,7 +264,7 @@ h1, h2, p {
     justify-content: center;
     align-items: center;
         background:
-        radial-gradient(ellipse 120% 120% at 100% 0%, rgba(33, 33, 33, 0.5) 0%, transparent 70%),
+        radial-gradient(ellipse 120% 120% at 100% 0%, rgba(33, 33, 33, 0.9) 0%, transparent 70%),
         #0A0A0A;
 }
 
