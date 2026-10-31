@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/style.css">
+    <link rel="shortcut icon" href="_img/hand.png" type="image/x-icon">
     <title>Robotic Hand</title>
 </head>
 
@@ -19,27 +20,27 @@
                 <div class="botoes">
                     <button>
                         <img src="_img/home.png" alt="">
-                        <p>Início</p>
+                        <p>Home</p>
                     </button>
 
                     <button>
                         <img src="_img/palm-of-hand.png" alt="">
-                        <p>Personalizar</p>
+                        <p>Customize</p>
                     </button>
 
                     <button>
                         <img src="_img/volume-adjustment.png" alt="">
-                        <p>Predefinições</p>
+                        <p>Presets</p>
                     </button>
 
                     <button>
                         <img src="_img/settings.png" alt="">
-                        <p>Configurações</p>
+                        <p>Settings</p>
                     </button>
 
                     <button>
                         <img src="_img/info.png" alt="">
-                        <p>Sobre</p>
+                        <p>About Us</p>
                     </button>
                 </div>
                 <p class="rodape">By CHEB Labs <br> Educational purposes</p>
@@ -48,8 +49,8 @@
 
         <div class="cont-central">
             <div class="texto">
-                <h2>POSIÇÃO ATUAL</h2>
-                <h1>POSIÇÃO ATUAL</h1>
+                <h2>POSITION</h2>
+                <h1>OPEN HAND</h1>
             </div>
 
             <div class="img">
@@ -68,34 +69,34 @@
         </div>
 
         <div class="cont-botoes">
-            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
-            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
-            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
-            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
-            <div class="fnd-botao"><button><img src="_img/MaoAberta2.png" alt=""></button></div>
+            <div class="fnd-botao"><button data-dedo="0"><img src="_img/MaoAberta2.png" alt=""><p>Open</p></button></div>
+            <div class="fnd-botao"><button data-dedo="1"><img src="_img/MaoAberta2.png" alt=""><p>Closed</p></button></div>
+            <div class="fnd-botao"><button data-dedo="2"><img src="_img/MaoAberta2.png" alt=""><p>Rock 'n Roll</p></button></div>
+            <div class="fnd-botao"><button data-dedo="3"><img src="_img/MaoAberta2.png" alt=""><p>Thumbs Up</p></button></div>
+            <div class="fnd-botao"><button data-dedo="4"><img src="_img/MaoAberta2.png" alt=""><p>OK</p></button></div>
         </div>
 
         <div class="cont-direito1">
             <div class="painel">
                 <div class="range">
                     <p>Thumb</p>
-                    <input type="range" name="" id="" class="slider">
+                    <input type="range" name="" id="slider-0" class="slider" data-dedo="0">
                 </div>
                 <div class="range">
                     <p>Index</p>
-                    <input type="range" name="" id="" class="slider">
+                    <input type="range" name="" id="slider-1" class="slider" data-dedo="1">
                 </div>
                 <div class="range">
                     <p>Middle</p>
-                    <input type="range" name="" id="" class="slider">
+                    <input type="range" name="" id="slider-2" class="slider" data-dedo="2">
                 </div>
                 <div class="range">
                     <p>Ring</p>
-                    <input type="range" name="" id="" class="slider">
+                    <input type="range" name="" id="slider-3" class="slider" data-dedo="3">
                 </div>
                 <div class="range">
                     <p>Pinky</p>
-                    <input type="range" name="" id="" class="slider">
+                    <input type="range" name="" id="slider-4" class="slider" data-dedo="4">
                 </div>
             </div>
         </div>
@@ -117,6 +118,7 @@
         </div>
     </div>
 
+    <script src="_js/script.js"></script>
 </body>
 
 </html>
