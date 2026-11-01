@@ -24,6 +24,10 @@ h1, h2, p {
     color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
 .painel {
     background:
         radial-gradient(ellipse 120% 120% at 100% 0%, rgba(33, 33, 33, 0.5) 0%, transparent 70%),
@@ -105,6 +109,11 @@ h1, h2, p {
     font-size: 0.9em;
     font-weight: 300;
     cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.cont-esquerdo button:hover {
+    transform: scale(1.045);
 }
 
 .cont-esquerdo button img{
@@ -231,6 +240,11 @@ h1, h2, p {
         inset 2px 2px 0 -1px rgba(67, 67, 67, 0.75), 
         inset -2px -2px 0 rgba(67, 67, 67, 0.2), 
         0px 13px 15px 0px rgba(0, 0, 0, 0.20);
+    transition: ease-in-out 0.25s;
+}
+
+.fnd-botao:hover {
+    transform: scale(1.1);
 }
 
 .fnd-botao button {
@@ -239,7 +253,6 @@ h1, h2, p {
     background-color: transparent;
     border: none;
     cursor: pointer;
-
 }
 
 .fnd-botao button img {
@@ -313,6 +326,11 @@ h1, h2, p {
     border-radius: 50%;
     background: #FFFFFF;
     box-shadow: 0 0 0 1px rgba(67, 67, 67, 0.75);
+    transition: ease-in-out 0.25s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.075);
 }
 
 .cont-direito2 {
